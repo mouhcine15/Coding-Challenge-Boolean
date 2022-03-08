@@ -1,0 +1,84 @@
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.container{
+  width: 3000px;
+  margin: auto;
+  margin-top: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 50px;
+}
+.logo{
+  margin: auto;
+  display: block;
+}
+h1{
+  color: lime;
+  text-align: center;
+  font-size: 120px;
+  font-family: century gothic;
+}
+nav {
+  background-color: lime;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+button {
+  font-size: 50px;
+}
+section {
+  margin-left: auto;
+  width: 90%;
+}
+.checkbox {
+  width: 40px;
+  height: 40px;
+}
+h2 {
+  color: white;
+  display: inline-block;
+  font-size: 80px;
+  font-family: century gothic;
+}
+.via:before{
+  content: "\279F";
+}
+span {
+  color: white;
+  font-size: 50px;
+  font-family: century gothic;
+  display: block;
+  margin: auto;
+}
+#carica1 {
+  background-color: orange;
+  width: 35%;
+  margin-left: : auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+#carica2 {
+  background-color: green;
+  width: 60%;
+  margin-left: : auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+#carica3 {
+  background-color: red;
+  width: 15%;
+  margin-left: : auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
